@@ -1,0 +1,13 @@
+
+    <div class="container">
+        <h1>Generate a<br><span >Random Password</span></h1>
+        <div class="display">
+            <!-- <input type="text" id="password" placeholder="password"> -->
+            <input type="text" [value]="inputval" placeholder="password"  #textInput value="Text to copy">      
+            <button >Copy</button>
+          
+        </div>
+        <button (click)="createPassword()">Generate Password</button>
+    </div>
+    
+<router-outlet />
